@@ -5,7 +5,7 @@ Aplikasi manajemen keuangan pribadi berbasis **Android Native (Java)** untuk men
 ![Platform](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
 ![Language](https://img.shields.io/badge/language-Java-007396?logo=java&logoColor=white)
 ![Min SDK](https://img.shields.io/badge/minSdk-24-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-Academic%20Project-orange)
 
 ---
 
@@ -39,7 +39,7 @@ Mengelola keuangan pribadi sering kali merepotkan jika masih dilakukan manual di
 
 - **Bahasa:** Java
 - **Arsitektur:** MVVM (Model-View-ViewModel) + Repository Pattern
-- **Database:** [Room](https://developer.android.com/training/data-storage/room) (SQLite lokal)
+- **Database:** [Room](https://developer.android.com/training/data-storage/room) — persistence library Android Jetpack untuk penyimpanan data lokal berbasis objek (Entity, DAO)
 - **UI:** ViewBinding, Material Design Components, ConstraintLayout
 - **Navigasi:** Navigation Component (single-activity, multi-fragment)
 - **Grafik:** [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
@@ -99,11 +99,11 @@ APK hasil build akan tersedia di `app/build/outputs/apk/debug/`.
 
 | Dashboard | Transaksi | Laporan |
 |---|---|---|
-| <img src="screenshots/dashboard.jpg" width="220"/> | <img src="screenshots/transaksi.jpg" width="220"/> | <img src="screenshots/laporan.jpg" width="220"/> |
+| <img src="Assets/Dashboard.jpeg" width="220"/> | <img src="Assets/Transaksi.jpeg" width="220"/> | <img src="Assets/Laporan.jpeg" width="220"/> |
 
 | Tabungan | Pengaturan | Kunci PIN |
 |---|---|---|
-| <img src="screenshots/tabungan.jpg" width="220"/> | <img src="screenshots/pengaturan.jpg" width="220"/> | <img src="screenshots/pin.jpg" width="220"/> |
+| <img src="Assets/Tabungan.jpeg" width="220"/> | <img src="Assets/Pengaturan.jpeg" width="220"/> | <img src="Assets/Pin.jpeg" width="220"/> |
 
 ## 💡 Manfaat
 
@@ -111,8 +111,6 @@ Dengan Catatan Keuangan, pengguna dapat lebih disiplin mengatur arus kas harian,
 
 ## 🗺️ Roadmap
 
-- [ ] Export laporan ke PDF/Excel
-- [ ] Backup & restore data (cloud sync opsional)
 - [ ] Widget saldo di homescreen
 - [ ] Multi-akun / multi-dompet
 
@@ -128,11 +126,16 @@ git push origin fitur/nama-fitur
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+Aplikasi **Catatan Keuangan** ini dibuat dalam rangka menyelesaikan tugas Mata Kuliah **Mobile Programming**, Program Studi Teknik Informatika, **Universitas Pamulang**.
+
+Seluruh hak cipta atas kode sumber aplikasi ini melekat pada pengembangnya, **Vella Aprilia Sari**. Repository ini dibagikan secara terbuka sebagai bahan belajar, arsip portofolio, dan bahan rujukan bagi mahasiswa maupun pengembang lain.
+
+Silakan gunakan, pelajari, atau kembangkan lebih lanjut proyek ini untuk keperluan non-komersial/edukasi, dengan syarat tetap mencantumkan nama pengembang asli sebagai bentuk atribusi.
 
 ## 👤 Author
 
 **Vella Aprilia Sari**
+Program Studi Teknik Informatika, Universitas Pamulang
 GitHub: [@Vellaapril](https://github.com/Vellaapril)
 
 ---
