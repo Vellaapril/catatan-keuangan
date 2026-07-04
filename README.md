@@ -124,14 +124,6 @@ git commit -m "Menambahkan fitur X"
 git push origin fitur/nama-fitur
 ```
 
-## 📄 Lisensi
-
-Aplikasi **Catatan Keuangan** ini dibuat dalam rangka menyelesaikan tugas Mata Kuliah **Mobile Programming**, Program Studi Teknik Informatika, **Universitas Pamulang**.
-
-Seluruh hak cipta atas kode sumber aplikasi ini melekat pada pengembangnya, **Vella Aprilia Sari**. Repository ini dibagikan secara terbuka sebagai bahan belajar, arsip portofolio, dan bahan rujukan bagi mahasiswa maupun pengembang lain.
-
-Silakan gunakan, pelajari, atau kembangkan lebih lanjut proyek ini untuk keperluan non-komersial/edukasi, dengan syarat tetap mencantumkan nama pengembang asli sebagai bentuk atribusi.
-
 ## 👤 Author
 
 **Vella Aprilia Sari**
